@@ -1,7 +1,9 @@
 <div align="center">
     <h1>-SOFTWARE ARCHITECTURE-</h1>
-    <p>Welcome! In this README, we will explore in detail the fundamental concepts of software architecture and the implications that this entails, so it will take a good amount of time to cover and understand these topics.</p>
+    <h3>By: Esteban Sansar<h3>
+    <img src="https://cdn.sanity.io/images/tlr8oxjg/production/8065e9b35afcf58ba7b1b96e1d5be14420d47dec-1456x816.png?w=3840&q=80&fit=clip&auto=format" alt="main-img">
 </div>
+<p>Welcome! In this README, we will explore in detail the fundamental concepts of software architecture and the implications that this entails, so it will take a good amount of time to cover and understand these topics.</p>
 
 <div>
     <h2 align="center">Index</h2>
@@ -55,6 +57,8 @@
    6.3 [Cohesion](#63-cohesion)
 
    6.4 [S.O.L.I.D](#64-solid)
+
+[References](#references)
 </div>
 
 <div>
@@ -341,4 +345,14 @@ Tips for following the SOLID principles:
 - Don't worry about performance at first: Focus on making the code readable and maintainable. Performance can be improved later.
 
 The SOLID principles are a valuable guide for software engineers. By following these principles, you can write code that is easier to understand, maintain, and modify.</p>
+</div>
+
+<div>
+    <h2 align="center">References</h2>
+<p>
+    
+- [Atributos de Calidad](https://manuelzapata.co/atributos-de-calidad/#:~:text=Adaptabilidad.,las%20necesidades%20de%20los%20usuarios)
+- [Arquitectura de Software](https://github.com/crodrigr/arquitectura-software)
+- [Design Patterns](https://www.tutorialspoint.com/design_pattern/)
+</p>
 </div>
