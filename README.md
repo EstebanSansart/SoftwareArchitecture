@@ -1,100 +1,100 @@
 <div align="center">
     <h1>-SOFTWARE ARCHITECTURE-</h1>
-    <p>¡Bienvenidos! En esta presentación, exploraremos en detalle los conceptos fundamentales de la arquitectura de software y las implicaciones que esto conlleva, por lo que tomará un buen tiempo abarcar y entender estos temas.</p>
+    <p>Welcome! In this README, we will explore in detail the fundamental concepts of software architecture and the implications that this entails, so it will take a good amount of time to cover and understand these topics.</p>
 </div>
 
 <div>
-    <h2 align="center">Índice</h2>
+    <h2 align="center">Index</h2>
     <ul>
         <li>...</li>
     </ul>  
 </div>
 
 <div>
-    <h2 align="center">1. ¿Qué es la Arquitectura de Software?</h2>
-    <p>No existe una única definición de arquitectura de software debido a su naturaleza multifacética y a la evolución constante de la industria del software. Diversos expertos y profesionales pueden ofrecer definiciones ligeramente diferentes basadas en sus perspectivas y necesidades específicas. Además, la arquitectura de software puede variar considerablemente según el tipo de aplicación o sistema que se esté desarrollando, lo que también contribuye a la falta de una única definición.</p>
+    <h2 align="center">1. What is Software Architecture?</h2>
+    <p>There is no single definition of software architecture due to its multifaceted nature and the constant evolution of the software industry. Various experts and professionals may offer slightly different definitions based on their perspectives and specific needs. Furthermore, software architecture can vary significantly depending on the type of application or system being developed, which also contributes to the lack of a single definition.</p>
 </div>
 
 <div>
-    <h2 align="center">2. Patrones de Diseño</h2>
-    <p>Los patrones de diseño son soluciones comunes para problemas que surgen repetidamente en el diseño de software. Los puedes considerar como plantillas personalizables que te ayudan a resolver problemas de diseño recurrentes en tu código.
+    <h2 align="center">2. Design Patterns</h2>
+    <p>Design patterns are common solutions to problems that repeatedly arise in software design. You can think of them as customizable templates that help you address recurring design issues in your code.
 
-Es importante entender que no puedes simplemente copiar y pegar un patrón en tu programa como lo harías con funciones o bibliotecas predefinidas. Un patrón no es una pieza de código específica, sino más bien un enfoque general para abordar un problema particular. Debes adaptar los detalles del patrón e implementar una solución que se ajuste a las necesidades de tu propio programa.
+It's important to understand that you can't simply copy and paste a pattern into your program like you would with pre-defined functions or libraries. A pattern is not a specific piece of code but rather a general approach to tackling a particular problem. You must tailor the pattern's details and implement a solution that fits the needs of your own program.
 
-A veces, los patrones se confunden con algoritmos, ya que ambos representan soluciones comunes para problemas conocidos. Sin embargo, hay una diferencia fundamental. Mientras que un algoritmo proporciona una secuencia de pasos claros para lograr un objetivo específico, un patrón es una descripción de nivel superior de una solución. Esto significa que el código que implementa el mismo patrón en dos programas diferentes puede ser distinto.
+Sometimes, patterns are confused with algorithms since both represent common solutions to known problems. However, there is a fundamental difference. While an algorithm provides a clear sequence of steps to achieve a specific goal, a pattern is a higher-level description of a solution. This means that the code implementing the same pattern in two different programs can be different.
 
-Para ilustrar esta diferencia, podríamos comparar un algoritmo con una receta de cocina, ya que ambos siguen pasos específicos para alcanzar un resultado deseado. Por otro lado, un patrón es más similar a un plano arquitectónico, donde puedes ver cómo debería ser el resultado final y cuáles son las funciones clave, pero la implementación exacta depende de ti y de las necesidades de tu proyecto.</p>
+To illustrate this difference, we could compare an algorithm to a cooking recipe, as both follow specific steps to achieve a desired outcome. On the other hand, a pattern is more like an architectural blueprint, where you can see what the end result should be and what the key features are, but the exact implementation depends on you and your project's needs.</p>
 
-<h3>2.1 ¿En qué consisten los Patrones de Diseño?</h3>
-<p>La mayoría de los patrones se describe con mucha formalidad para que la gente pueda reproducirlos en muchos contextos. Aquí tienes las secciones que suelen estar presentes en la de- scripción de un patrón:
+<h3>2.1 What are Design Patterns?</h3>
+<p>Most patterns are described with a high degree of formality so that people can reproduce them in many contexts. Here are the sections commonly found in a pattern description:
 
-- El propósito del patrón explica brevemente el problema y la solución.
-- La motivación explica en más detalle el problema y la solución que brinda el patrón.
-- La estructura de las clases muestra cada una de las partes del patrón y el modo en que se relacionan.
-- El ejemplo de código en uno de los lenguajes de programación populares facilita la asimilación de la idea que se esconde tras el patrón.
+- The pattern's purpose briefly explains the problem and its solution.
+- The motivation provides a more detailed explanation of the problem and the solution offered by the pattern.
+- The class structure shows each part of the pattern and how they relate to each other.
+- A code example in one of the popular programming languages makes it easier to grasp the idea behind the pattern.
 
-Algunos catálogos de patrones enumeran otros detalles útiles, como la aplicabilidad del patrón, los pasos de implementación y las relaciones con otros patrones.</p>
+Some pattern catalogs list other useful details such as the pattern's applicability, implementation steps, and relationships with other patterns.</p>
 
-<h3>2.2 Ejemplos de Patrones de Diseño</h3>
+<h3>2.2 Design Patterns Examples</h3>
 <p>
 
-- Patrón Singleton: Este patrón garantiza que una clase solo tenga una instancia.
-- Patrón Factory: Este patrón proporciona una forma de crear objetos sin exponer la lógica de creación.
-- Patrón Adaptador: Este patrón permite que dos objetos que no son compatibles interactúen entre sí.</p>
+- Singleton Pattern: This pattern ensures that a class has only one instance.
+- Factory Pattern: This pattern provides a way to create objects without exposing the creation logic.
+- Adapter Pattern: This pattern allows two objects that are not compatible to interact with each other.</p>
 </div>
 
 <div>
-    <h2 align="center">3. Patrones Arquitectónicos</h2>
-    <p>Un patrón arquitectónico es una solución a un problema recurrente en el diseño de software. Es un esquema de organización estructural que define subsistemas, sus responsabilidades e interrelaciones. Los patrones arquitectónicos proporcionan una visión general de alto nivel de un sistema de software, y ayudan a los desarrolladores a tomar decisiones sobre la estructura y el diseño de su sistema.</p>
+    <h2 align="center">3. Architectural Patterns</h2>
+    <p>An architectural pattern is a solution to a recurring problem in software design. It is a structural organization scheme that defines subsystems, their responsibilities, and interrelationships. Architectural patterns provide a high-level overview of a software system and assist developers in making decisions about the structure and design of their system.</p>
 
-<h3>3.1 Ejemplos de Patrones de Arquitectónicos</h3>
+<h3>3.1 Architectural Patterns Examples</h3>
 <p>
 
-- Arquitectura por capas: Esta arquitectura divide un sistema de software en capas, cada una de las cuales tiene una responsabilidad específica.
-- Arquitectura cliente-servidor: Esta arquitectura divide un sistema de software en un cliente, que interactúa con el usuario, y un servidor, que proporciona servicios al cliente.
-- Arquitectura en microservicios: Esta arquitectura divide un sistema de software en un conjunto de servicios independientes que se comunican entre sí a través de una API.</p>
+- Layered Architecture: This architecture divides a software system into layers, each of which has a specific responsibility.
+- Client-Server Architecture: This architecture divides a software system into a client, which interacts with the user, and a server, which provides services to the client.
+- Microservices Architecture: This architecture divides a software system into a set of independent services that communicate with each other through an API.</p>
 
-<h3>3.2 Diferencias entre Patrones de Diseño y Patrones Arquitectónicos</h3>
+<h3>3.2 Differences between Design Patterns and Architectural Patterns</h3>
 <p>
 
-- Ámbito: Los patrones arquitectónicos se aplican a sistemas de software completos, mientras que los patrones de diseño se aplican a clases y objetos individuales.
-- Complejidad: Los patrones arquitectónicos suelen ser más complejos que los patrones de diseño.
-- Especificación: Los patrones arquitectónicos suelen ser menos específicos que los patrones de diseño.</p>
+- Scope: Architectural patterns are applied to entire software systems, while design patterns are applied to individual classes and objects.
+- Complexity: Architectural patterns tend to be more complex than design patterns.
+- Specificity: Architectural patterns are usually less specific than design patterns.</p>
 
 <img src="https://user-images.githubusercontent.com/31961588/273664281-a1926874-7e0c-4f35-bb59-eaa8c749eb65.png" alt="patterns-img">
 
 </div>
 
 <div>
-    <h2 align="center">4. Estilos Arquitectónicos</h2>
-    <p>Los estilos arquitectónicos son un conjunto de conceptos y principios que sirven como guía para la construcción de sistemas de software. Se basan en la idea de que existen diferentes formas de organizar un sistema, cada una con sus propias ventajas y desventajas.
+    <h2 align="center">4. Architectural Styles</h2>
+    <p>Architectural styles are a set of concepts and principles that serve as a guide for building software systems. They are based on the idea that there are different ways to organize a system, each with its own advantages and disadvantages.
 
-Los patrones arquitectónicos son soluciones a problemas comunes en la arquitectura de software. Proporcionan una descripción de los elementos y el tipo de relación que tienen, junto con un conjunto de restricciones sobre cómo pueden ser usados.
+Architectural patterns are solutions to common problems in software architecture. They provide a description of the elements and the type of relationship they have, along with a set of constraints on how they can be used.
 
-La diferencia principal entre estilos arquitectónicos y patrones arquitectónicos es su nivel de abstracción. Los estilos arquitectónicos son más generales y proporcionan una visión de alto nivel de cómo organizar un sistema. Los patrones arquitectónicos, por otro lado, son más concretos y proporcionan una solución específica a un problema particular.</p>
+The main difference between architectural styles and architectural patterns is their level of abstraction. Architectural styles are more general and provide a high-level view of how to organize a system. Architectural patterns, on the other hand, are more specific and offer a particular solution to a specific problem.</p>
 
-<h3>4.1 Ejemplos de Estilos Arquitectónicos</h3>
+<h3>4.1 Architectural Styles Examples</h3>
 <p>
 
-- Arquitectura en capas: El sistema se divide en capas, cada una con una responsabilidad específica.
-- Arquitectura cliente-servidor: El sistema se divide en clientes y servidores, que se comunican entre sí.
-- Arquitectura basada en eventos: El sistema se basa en la propagación de eventos entre los componentes.</p>
+- Layered Architecture: The system is divided into layers, each with a specific responsibility.
+- Client-Server Architecture: The system is divided into clients and servers, which communicate with each other.
+- Event-Driven Architecture: The system relies on the propagation of events among components.</p>
 
-<h3>4.2 Relacionemos estos tres conceptos</h3>
-<p>Los patrones de diseño, los patrones arquitectónicos y los estilos arquitectónicos son todos conceptos relacionados en la arquitectura de software. Aquí, existe una clase de jerarquía como la siguiente:</p>
+<h3>4.2 Let's Relate These Three Concepts</h3>
+<p>Design patterns, architectural patterns, and architectural styles are all related concepts in software architecture. There exists a hierarchy of these concepts as follows:</p>
 
 <img src="https://user-images.githubusercontent.com/31961588/273671383-ded4fc19-ef72-4c8f-bf8b-edff99344e78.png" alt="hierarchy-img">
 </div>
 
 <div>
-    <h2 align="center">5. Patrones de Diseño</h2>
-<p>En el siguiente mapa, encontrarás distintos videos sobre los patrones de diseño con el lenguaje "Java":</p>
+    <h2 align="center">5. Design Patterns</h2>
+<p>In the following map, you will find various videos about design patterns using the "Java" programming language:</p>
 
 ```mermaid
 flowchart TD
-    A[Patrones de Diseño <a href='https://www.youtube.com/watch?v=cwfuydUHZ7o&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=1'>Video</a>] --> B[Creación]
-    A -->C[Estructurales]
-    A -->D[Comportamiento]
+    A[Design Patterns <a href='https://www.youtube.com/watch?v=cwfuydUHZ7o&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=1'>Video</a>] --> B[Creational]
+    A -->C[Structural]
+    A -->D[Behavior]
     B -->E[Sigleton <a href='https://www.youtube.com/watch?v=gocJeOHtj9w&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=2'>Video</a>] 
     B -->F[Factory  <a href='https://www.youtube.com/watch?v=R6Ef64hDwGo&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=3'>Video</a>]
     B -->G[Abstract Factory <a href='https://www.youtube.com/watch?v=QmE-o5R7ZF4&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=4'>Video</a>]
@@ -194,103 +194,104 @@ ObserverPatternDemo, our demo class, will use Subject and concrete class object 
 </div>
 
 <div>
-    <h2 align="center">6. Conceptos de la Ingeniería de Software</h2>
-<p>Ahora, es importante que se conozcan estos conceptos, ya que son útiles al momento de implementar todos lo relacionado a la arquitectura de software.</p>
+    <h2 align="center">6. Software Engineering Concepts</h2>
+<p>Now, it's important to become familiar with these concepts as they are useful when implementing everything related to software architecture.</p>
 
-<h3>6.1 Atributos de calidad de Software</h3>
-<p>Una definición para este concepto puede ser el siguiente: "Un atributo de calidad es una propiedad medible de un sistema, que indica qué tan bien el sistema satisface las necesidades de las partes interesadas."
+<h3>6.1 Software quality attributes</h3>
+<p>One possible definition for this concept could be as follows: "A quality attribute is a measurable property of a system that indicates how well the system meets the needs of its stakeholders."
 
-Estos son los atributos más comunes:
+Here are some common quality attributes:
 
-- Desplegabilidad (facilidad de despliegue).
-- Disponibilidad.
-- Escalabilidad.
-- Interoperabilidad.
-- Modificabilidad.
-- Rendimiento.
-- Seguridad.
-- Testeabilidad (facilidad de probar el sistema).
-- Usabilidad.</p>
+- Deployability (ease of deployment).
+- Availability.
+- Scalability.
+- Interoperability.
+- Modifiability.
+- Performance.
+- Security.
+- Testability (ease of testing the system).
+- Usability.</p>
 
-<h3>6.2 Acoplamiento</h3>
-<p>En ingeniería de software, el acoplamiento es el grado de dependencia entre módulos de software. Se refiere a la cantidad de comunicación y conocimiento que necesitan dos módulos para interactuar entre sí.
+<h3>6.2 Coupling</h3>
+<p>In software engineering, coupling refers to the degree of dependence between software modules. It pertains to the amount of communication and knowledge that two modules need to interact with each other.
 
-Un acoplamiento alto significa que dos módulos están estrechamente relacionados y dependen mucho uno del otro. Esto puede dificultar el mantenimiento y la evolución del software, ya que los cambios en un módulo pueden tener un impacto significativo en otros módulos.
+High coupling means that two modules are closely related and heavily depend on each other. This can make software maintenance and evolution challenging, as changes in one module can have a significant impact on other modules.
 
-Un acoplamiento bajo significa que dos módulos están débilmente relacionados y no dependen mucho uno del otro. Esto hace que el software sea más flexible y fácil de mantener.
+Low coupling means that two modules are loosely related and don't depend much on each other. This makes the software more flexible and easier to maintain.
 
-En programación orientada a objetos, el acoplamiento se puede clasificar en varios tipos, entre los que se incluyen:
+In object-oriented programming, coupling can be classified into various types, including:
 
-- Acoplamiento de datos: ocurre cuando dos módulos comparten datos.
-- Acoplamiento de control: ocurre cuando dos módulos se comunican a través de llamadas de función.
-- Acoplamiento de conocimiento: ocurre cuando dos módulos necesitan conocer la implementación del otro para interactuar entre sí.
+- Data coupling: Occurs when two modules share data.
+- Control coupling: Occurs when two modules communicate through function calls.
+- Knowledge coupling: Occurs when two modules need to know the implementation of each other to interact.
 
-Un buen diseño de software debe tener un acoplamiento bajo. Esto se puede lograr mediante el uso de principios de diseño como la abstracción, el encapsulamiento y la modularidad.
+Good software design should aim for low coupling. This can be achieved by using design principles such as abstraction, encapsulation, and modularity.
 
-Aquí hay algunos consejos para reducir el acoplamiento en el software:
+Here are some tips for reducing coupling in software:
 
-- Utilizar interfaces para la comunicación entre módulos. Esto permite que los módulos se comuniquen sin conocer la implementación del otro.
-- Encapsular el estado de los módulos. Esto evita que los módulos accedan directamente a los datos de otros módulos.
-- Dividir el software en módulos pequeños y autónomos. Esto hace que los módulos sean más fáciles de entender y mantener.
+- Use interfaces for communication between modules. This allows modules to communicate without knowing the implementation details of each other.
+- Encapsulate the state of modules. This prevents modules from directly accessing the data of other modules.
+- Divide the software into small, autonomous modules. This makes modules easier to understand and maintain.
 
-Al reducir el acoplamiento, el software se vuelve más flexible y fácil de mantener. Esto puede ayudar a reducir los costos de desarrollo y mantenimiento, y mejorar la calidad del software.</p>
+By reducing coupling, software becomes more flexible and easier to maintain. This can help reduce development and maintenance costs and improve software quality.</p>
 
-<h3>6.3 Cohesión</h3>
-<p>En la ingeniería de software, la cohesión es una medida de la fuerza de la relación entre los elementos de un módulo. Un módulo con una alta cohesión es aquel en el que todos los elementos están estrechamente relacionados entre sí y comparten una única función o responsabilidad. Un módulo con una baja cohesión es aquel en el que los elementos están débilmente relacionados entre sí y pueden tener varias funciones o responsabilidades.
+<h3>6.3 Cohesion</h3>
+<p>In software engineering, cohesion is a measure of the strength of the relationship between elements within a module. A module with high cohesion is one in which all elements are closely related and share a single function or responsibility. A module with low cohesion is one in which the elements are loosely related and may have multiple functions or responsibilities.
 
-La cohesión es un factor importante en el diseño de software, ya que afecta a la calidad del código y su facilidad de mantenimiento. Los módulos con una alta cohesión son más fáciles de entender, probar y modificar, lo que los hace más robustos y fiables.
+Cohesion is an important factor in software design as it affects code quality and ease of maintenance. Modules with high cohesion are easier to understand, test, and modify, making them more robust and reliable.
 
-Existen diferentes tipos de cohesión, que se clasifican según el grado de relación entre los elementos de un módulo. Los tipos de cohesión más comunes son:
+There are different types of cohesion, classified based on the degree of relationship among the elements within a module. The most common types of cohesion include:
 
-- Cohesión funcional: Todos los elementos del módulo están relacionados con una única función o responsabilidad.
-- Cohesión temporal: Todos los elementos del módulo están relacionados con un evento o periodo de tiempo concreto.
-- Cohesión espacial: Todos los elementos del módulo están relacionados con una entidad o objeto concreto.
-- Cohesión lógica: Todos los elementos del módulo están relacionados con un concepto o idea concreto.
-- Cohesión accidental: Los elementos del módulo están relacionados de forma arbitraria o accidental.
+- Functional Cohesion: All elements within the module are related to a single function or responsibility.
+- Temporal Cohesion: All elements within the module are related to a specific event or time period.
+- Spatial Cohesion: All elements within the module are related to a specific entity or object.
+- Logical Cohesion: All elements within the module are related to a specific concept or idea.
+- Coincidental Cohesion: Elements within the module are related arbitrarily or coincidentally.
 
-En general, se considera que los módulos con una alta cohesión son más deseables que los módulos con una baja cohesión. Sin embargo, la cohesión no es el único factor a considerar en el diseño de software. Otros factores importantes incluyen el acoplamiento, la modularidad y la escalabilidad.
+In general, modules with high cohesion are considered more desirable than those with low cohesion. However, cohesion is not the sole factor to consider in software design. Other important factors include coupling, modularity, and scalability.
 
-A continuación, se presentan algunos consejos para mejorar la cohesión de los módulos:
+Here are some tips to improve module cohesion:
 
-- Agrupar los elementos del módulo en función de su función o responsabilidad.
-- Eliminar los elementos del módulo que no están relacionados con la función o responsabilidad principal.
-- Refactorizar el código para mejorar la estructura y organización del módulo.
-Con una planificación cuidadosa y una implementación adecuada, es posible crear módulos con una alta cohesión que sean fáciles de entender, probar y modificar.</p>
+- Group module elements based on their function or responsibility.
+- Remove elements from the module that are unrelated to the main function or responsibility.
+- Refactor the code to enhance the structure and organization of the module.
+
+With careful planning and proper implementation, it is possible to create modules with high cohesion that are easy to understand, test, and modify.</p>
 
 <h3>6.4 S.O.L.I.D</h3>
-<p>SOLID es un acrónimo que representa cinco principios de diseño de software orientados a objetos. Estos principios fueron introducidos por Robert C. Martin en su libro "Agile Principles, Patterns, and Practices in C#".
+<p>SOLID is an acronym that represents five object-oriented software design principles. These principles were introduced by Robert C. Martin in his book "Agile Principles, Patterns, and Practices in C#".
 
-Los cinco principios SOLID son:
+The five SOLID principles are:
 
-- Single Responsibility Principle (SRP): Cada clase o módulo debe tener una única responsabilidad.
-- Open/Closed Principle (OCP): Las clases o módulos deben ser abiertos para la extensión, pero cerrados para la modificación.
-- Liskov Substitution Principle (LSP): Las clases derivadas deben ser sustituibles por sus clases base.
-- Interface Segregation Principle (ISP): Las interfaces deben ser lo más pequeñas y específicas posible.
-- Dependency Inversion Principle (DIP): Las dependencias deben ir de lo general a lo específico.
+- Single Responsibility Principle (SRP): Every class or module should have a single responsibility.
+- Open/Closed Principle (OCP): Classes or modules should be open for extension, but closed for modification.
+- Liskov Substitution Principle (LSP): Derived classes should be substitutable for their base classes.
+- Interface Segregation Principle (ISP): Interfaces should be as small and specific as possible.
+- Dependency Inversion Principle (DIP): Dependencies should go from the general to the specific.
 
-Estos principios se basan en la idea de que un software bien diseñado debe ser fácil de entender, mantener y modificar. Cuando se siguen estos principios, el software es más flexible, escalable y resistente a los cambios.
+These principles are based on the idea that well-designed software should be easy to understand, maintain, and modify. When these principles are followed, software is more flexible, scalable, and resistant to change.
 
-Ahora se explicará cada uno de estos principios:
+Explanation of each principle:
 
-- Single Responsibility Principle (SRP): Este principio establece que cada clase o módulo debe tener una única responsabilidad. Esto significa que una clase o módulo no debe tener más de una razón para cambiar.
-- Open/Closed Principle (OCP): Este principio establece que las clases o módulos deben ser abiertos para la extensión, pero cerrados para la modificación. Esto significa que las clases o módulos deben ser diseñados de manera que puedan ser extendidos para agregar nuevas funcionalidades sin necesidad de modificar el código existente.
-- Liskov Substitution Principle (LSP): Este principio establece que las clases derivadas deben ser sustituibles por sus clases base. Esto significa que una clase derivada debe poder usarse en cualquier lugar donde se pueda usar su clase base.
-- Interface Segregation Principle (ISP): Este principio establece que las interfaces deben ser lo más pequeñas y específicas posible. Esto significa que una interfaz no debe proporcionar métodos o atributos que no sean necesarios para todas las clases que implementan esa interfaz.
-- Dependency Inversion Principle (DIP): Este principio establece que las dependencias deben ir de lo general a lo específico. Esto significa que las clases o módulos no deben depender de clases o módulos concretos, sino de interfaces abstractas.
+- Single Responsibility Principle (SRP): This principle states that every class or module should have a single responsibility. This means that a class or module should have no more than one reason to change.
+- Open/Closed Principle (OCP): This principle states that classes or modules should be open for extension, but closed for modification. This means that classes or modules should be designed in a way that they can be extended to add new functionality without the need to modify existing code.
+- Liskov Substitution Principle (LSP): This principle states that derived classes should be substitutable for their base classes. This means that a derived class should be able to be used anywhere where its base class can be used.
+- Interface Segregation Principle (ISP): This principle states that interfaces should be as small and specific as possible. This means that an interface should not provide methods or attributes that are not necessary for all classes that implement that interface.
+- Dependency Inversion Principle (DIP): This principle states that dependencies should go from the general to the specific. This means that classes or modules should not depend on concrete classes or modules, but on abstract interfaces.
 
-Además, hay beneficios al momento de seguir estos principios, los cuales son:
+Benefits of following the SOLID principles:
 
-- Mejor legibilidad: El código que sigue los principios SOLID es más fácil de entender y mantener.
-- Mayor flexibilidad: El código que sigue los principios SOLID es más fácil de extender y modificar.
-- Mayor escalabilidad: El código que sigue los principios SOLID es más fácil de escalar.
-- Mayor resistencia a los cambios: El código que sigue los principios SOLID es más resistente a los cambios.
+- Better readability: Code that follows the SOLID principles is easier to understand and maintain.
+- Increased flexibility: Code that follows the SOLID principles is easier to extend and modify.
+- Increased scalability: Code that follows the SOLID principles is easier to scale.
+Increased resistance to change: Code that follows the SOLID principles is more resistant to change.
 
-Por último, algunos consejos para seguir los principios SOLID:
+Tips for following the SOLID principles:
 
-- Empieza con un buen diseño: El diseño es la base de cualquier buen código. Cuando empieces a diseñar un nuevo sistema, ten en cuenta los principios SOLID.
-- Divide y vencerás: Si una clase o módulo tiene demasiadas responsabilidades, divídelo en clases o módulos más pequeños.
-- Utiliza interfaces: Las interfaces te ayudan a evitar dependencias concretas.
-- No te preocupes por el rendimiento al principio: Concéntrate en hacer el código legible y mantenible. El rendimiento se puede mejorar más adelante.
+- Start with good design: Design is the foundation of any good code. When you start designing a new system, keep the SOLID principles in mind.
+- Divide and conquer: If a class or module has too many responsibilities, divide it into smaller classes or modules.
+- Use interfaces: Interfaces help you avoid concrete dependencies.
+- Don't worry about performance at first: Focus on making the code readable and maintainable. Performance can be improved later.
 
-Los principios SOLID son una guía valiosa para los ingenieros de software. Al seguir estos principios, puedes escribir código que sea más fácil de entender, mantener y modificar.</p>
+The SOLID principles are a valuable guide for software engineers. By following these principles, you can write code that is easier to understand, maintain, and modify.</p>
 </div>
