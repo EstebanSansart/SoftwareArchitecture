@@ -88,9 +88,25 @@ La diferencia principal entre estilos arquitectónicos y patrones arquitectónic
 
 <div>
     <h2 align="center">5. Patrones de Diseño</h2>
-    En el siguiente mapa, encontrarás distintos videos sobre los patrones de diseño con el lenguaje "Java":
+<p>En el siguiente mapa, encontrarás distintos videos sobre los patrones de diseño con el lenguaje "Java":</p>
 
+```mermaid
+flowchart TD
+    A[Patrones de Diseño <a href='https://www.youtube.com/watch?v=cwfuydUHZ7o&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=1'>Video</a>] --> B[Creación]
+    A -->C[Estructurales]
+    A -->D[Comportamiento]
+    B -->E[Sigleton <a href='https://www.youtube.com/watch?v=gocJeOHtj9w&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=2'>Video</a>] 
+    B -->F[Factory  <a href='https://www.youtube.com/watch?v=R6Ef64hDwGo&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=3'>Video</a>]
+    B -->G[Abstract Factory <a href='https://www.youtube.com/watch?v=QmE-o5R7ZF4&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=4'>Video</a>]
+    B -->H[Prototype <a href='https://www.youtube.com/watch?v=M3VT1v54cq4&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=5'>Video</a>]
+    C -->I[Proxy <a href='https://www.youtube.com/watch?v=LUJbqdthTzA&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=8'>Video</a>]
+    C -->J[Facade <a href='https://www.youtube.com/watch?v=6dYwdDbhpwQ&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=6'>Video</a>]
+    D -->k[Memento <a href='https://www.youtube.com/watch?v=Q5CL1b-FD9E&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=10'>Video</a>]
+    D -->O[Command <a href='https://www.youtube.com/watch?v=hDBOfyzFKEU&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=9'>Video</a>]
+    D -->P[Observer <a href='https://www.youtube.com/watch?v=QiKrKNTdGGs&list=PLvimn1Ins-41Uiugt1WbpyFo1XT1WOquL&index=11'>Video</a>]
 
+   
+```
 
 <h3>5.1 Singleton Pattern</h3>
 <p>Singleton pattern is one of the simplest design patterns in Java. This type of design pattern comes under creational pattern as this pattern provides one of the best ways to create an object.
@@ -175,4 +191,106 @@ Observer pattern uses three actor classes. Subject, Observer and Client. Subject
 
 ObserverPatternDemo, our demo class, will use Subject and concrete class object to show observer pattern in action:</p>
 <img src="https://www.tutorialspoint.com/design_pattern/images/observer_pattern_uml_diagram.jpg" alt="observer-pattern-img">
+</div>
+
+<div>
+    <h2 align="center">6. Conceptos de la Ingeniería de Software</h2>
+<p>Ahora, es importante que se conozcan estos conceptos, ya que son útiles al momento de implementar todos lo relacionado a la arquitectura de software.</p>
+
+<h3>6.1 Atributos de calidad de Software</h3>
+<p>Una definición para este concepto puede ser el siguiente: "Un atributo de calidad es una propiedad medible de un sistema, que indica qué tan bien el sistema satisface las necesidades de las partes interesadas."
+
+Estos son los atributos más comunes:
+
+- Desplegabilidad (facilidad de despliegue).
+- Disponibilidad.
+- Escalabilidad.
+- Interoperabilidad.
+- Modificabilidad.
+- Rendimiento.
+- Seguridad.
+- Testeabilidad (facilidad de probar el sistema).
+- Usabilidad.</p>
+
+<h3>6.2 Acoplamiento</h3>
+<p>En ingeniería de software, el acoplamiento es el grado de dependencia entre módulos de software. Se refiere a la cantidad de comunicación y conocimiento que necesitan dos módulos para interactuar entre sí.
+
+Un acoplamiento alto significa que dos módulos están estrechamente relacionados y dependen mucho uno del otro. Esto puede dificultar el mantenimiento y la evolución del software, ya que los cambios en un módulo pueden tener un impacto significativo en otros módulos.
+
+Un acoplamiento bajo significa que dos módulos están débilmente relacionados y no dependen mucho uno del otro. Esto hace que el software sea más flexible y fácil de mantener.
+
+En programación orientada a objetos, el acoplamiento se puede clasificar en varios tipos, entre los que se incluyen:
+
+- Acoplamiento de datos: ocurre cuando dos módulos comparten datos.
+- Acoplamiento de control: ocurre cuando dos módulos se comunican a través de llamadas de función.
+- Acoplamiento de conocimiento: ocurre cuando dos módulos necesitan conocer la implementación del otro para interactuar entre sí.
+
+Un buen diseño de software debe tener un acoplamiento bajo. Esto se puede lograr mediante el uso de principios de diseño como la abstracción, el encapsulamiento y la modularidad.
+
+Aquí hay algunos consejos para reducir el acoplamiento en el software:
+
+- Utilizar interfaces para la comunicación entre módulos. Esto permite que los módulos se comuniquen sin conocer la implementación del otro.
+- Encapsular el estado de los módulos. Esto evita que los módulos accedan directamente a los datos de otros módulos.
+- Dividir el software en módulos pequeños y autónomos. Esto hace que los módulos sean más fáciles de entender y mantener.
+
+Al reducir el acoplamiento, el software se vuelve más flexible y fácil de mantener. Esto puede ayudar a reducir los costos de desarrollo y mantenimiento, y mejorar la calidad del software.</p>
+
+<h3>6.3 Cohesión</h3>
+<p>En la ingeniería de software, la cohesión es una medida de la fuerza de la relación entre los elementos de un módulo. Un módulo con una alta cohesión es aquel en el que todos los elementos están estrechamente relacionados entre sí y comparten una única función o responsabilidad. Un módulo con una baja cohesión es aquel en el que los elementos están débilmente relacionados entre sí y pueden tener varias funciones o responsabilidades.
+
+La cohesión es un factor importante en el diseño de software, ya que afecta a la calidad del código y su facilidad de mantenimiento. Los módulos con una alta cohesión son más fáciles de entender, probar y modificar, lo que los hace más robustos y fiables.
+
+Existen diferentes tipos de cohesión, que se clasifican según el grado de relación entre los elementos de un módulo. Los tipos de cohesión más comunes son:
+
+- Cohesión funcional: Todos los elementos del módulo están relacionados con una única función o responsabilidad.
+- Cohesión temporal: Todos los elementos del módulo están relacionados con un evento o periodo de tiempo concreto.
+- Cohesión espacial: Todos los elementos del módulo están relacionados con una entidad o objeto concreto.
+- Cohesión lógica: Todos los elementos del módulo están relacionados con un concepto o idea concreto.
+- Cohesión accidental: Los elementos del módulo están relacionados de forma arbitraria o accidental.
+
+En general, se considera que los módulos con una alta cohesión son más deseables que los módulos con una baja cohesión. Sin embargo, la cohesión no es el único factor a considerar en el diseño de software. Otros factores importantes incluyen el acoplamiento, la modularidad y la escalabilidad.
+
+A continuación, se presentan algunos consejos para mejorar la cohesión de los módulos:
+
+- Agrupar los elementos del módulo en función de su función o responsabilidad.
+- Eliminar los elementos del módulo que no están relacionados con la función o responsabilidad principal.
+- Refactorizar el código para mejorar la estructura y organización del módulo.
+Con una planificación cuidadosa y una implementación adecuada, es posible crear módulos con una alta cohesión que sean fáciles de entender, probar y modificar.</p>
+
+<h3>6.4 S.O.L.I.D</h3>
+<p>SOLID es un acrónimo que representa cinco principios de diseño de software orientados a objetos. Estos principios fueron introducidos por Robert C. Martin en su libro "Agile Principles, Patterns, and Practices in C#".
+
+Los cinco principios SOLID son:
+
+- Single Responsibility Principle (SRP): Cada clase o módulo debe tener una única responsabilidad.
+- Open/Closed Principle (OCP): Las clases o módulos deben ser abiertos para la extensión, pero cerrados para la modificación.
+- Liskov Substitution Principle (LSP): Las clases derivadas deben ser sustituibles por sus clases base.
+- Interface Segregation Principle (ISP): Las interfaces deben ser lo más pequeñas y específicas posible.
+- Dependency Inversion Principle (DIP): Las dependencias deben ir de lo general a lo específico.
+
+Estos principios se basan en la idea de que un software bien diseñado debe ser fácil de entender, mantener y modificar. Cuando se siguen estos principios, el software es más flexible, escalable y resistente a los cambios.
+
+Ahora se explicará cada uno de estos principios:
+
+- Single Responsibility Principle (SRP): Este principio establece que cada clase o módulo debe tener una única responsabilidad. Esto significa que una clase o módulo no debe tener más de una razón para cambiar.
+- Open/Closed Principle (OCP): Este principio establece que las clases o módulos deben ser abiertos para la extensión, pero cerrados para la modificación. Esto significa que las clases o módulos deben ser diseñados de manera que puedan ser extendidos para agregar nuevas funcionalidades sin necesidad de modificar el código existente.
+- Liskov Substitution Principle (LSP): Este principio establece que las clases derivadas deben ser sustituibles por sus clases base. Esto significa que una clase derivada debe poder usarse en cualquier lugar donde se pueda usar su clase base.
+- Interface Segregation Principle (ISP): Este principio establece que las interfaces deben ser lo más pequeñas y específicas posible. Esto significa que una interfaz no debe proporcionar métodos o atributos que no sean necesarios para todas las clases que implementan esa interfaz.
+- Dependency Inversion Principle (DIP): Este principio establece que las dependencias deben ir de lo general a lo específico. Esto significa que las clases o módulos no deben depender de clases o módulos concretos, sino de interfaces abstractas.
+
+Además, hay beneficios al momento de seguir estos principios, los cuales son:
+
+- Mejor legibilidad: El código que sigue los principios SOLID es más fácil de entender y mantener.
+- Mayor flexibilidad: El código que sigue los principios SOLID es más fácil de extender y modificar.
+- Mayor escalabilidad: El código que sigue los principios SOLID es más fácil de escalar.
+- Mayor resistencia a los cambios: El código que sigue los principios SOLID es más resistente a los cambios.
+
+Por último, algunos consejos para seguir los principios SOLID:
+
+- Empieza con un buen diseño: El diseño es la base de cualquier buen código. Cuando empieces a diseñar un nuevo sistema, ten en cuenta los principios SOLID.
+- Divide y vencerás: Si una clase o módulo tiene demasiadas responsabilidades, divídelo en clases o módulos más pequeños.
+- Utiliza interfaces: Las interfaces te ayudan a evitar dependencias concretas.
+- No te preocupes por el rendimiento al principio: Concéntrate en hacer el código legible y mantenible. El rendimiento se puede mejorar más adelante.
+
+Los principios SOLID son una guía valiosa para los ingenieros de software. Al seguir estos principios, puedes escribir código que sea más fácil de entender, mantener y modificar.</p>
 </div>
